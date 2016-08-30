@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="no.stormfilms.syngexporter" ExtensionBundleName="Syng Exporter" ExtensionBundleVersion="2.0.0" Version="4.0">
+	<ExtensionList>
+		<Extension Id="no.stormfilms.syngexporter.extension" Version="2.0"/>
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+            <Host Name="PHSP" Version="14.0"/>
+            <Host Name="PHXS" Version="14.0"/>
+		</HostList>
+		<LocaleList>
+			<Locale Code="All"/>
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0"/>
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="no.stormfilms.syngexporter.extension">
+			<DispatchInfo>
+				<Resources>
+					<MainPath>./index.html</MainPath>
+					<ScriptPath>./host/export.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Syng Exporter</Menu>
+					<Geometry>
+						<Size>
+							<Height>250</Height>
+							<Width>250</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
