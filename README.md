@@ -40,9 +40,14 @@ defaults write com.adobe.CSXS.7 PlayerDebugMode 1
 
 ## Documentation
 
+### Resources
+
+* [http://www.adobe.com/devnet/creativesuite/articles/a-short-guide-to-HTML5-extensions.html](Adobe Devnet: A Short Guide to HTML5 Extensibility)
+
+### This is how the plugin works
 Bla bla bla
 
-### Credits
+## Credits
 
 Created by Thomas Viktil [github.com/mandarinx](https://github.com/mandarinx), [@mandarinx](https://twitter.com/mandarinx) for [Storm Films AS](http://stormfilms.no).
 
